@@ -28,7 +28,7 @@ while True:
 # Bsp. Pass
 x = 5
 if x == 5 :
-    pass # In Python darf ein Block nicht leer sein
+    pass # In Python darf ein Block nicht leer sein 
 
 
 # Bsp. try-except
@@ -42,7 +42,7 @@ try:
     sorgenNeu = sorgen / divisor
 
 except ZeroDivisionError as e:
-    print ("Error zu viele Sorgen!")
+    print ("Error zu viele Sorgen!", e)
 
 else: 
     print("Neue Sorgen", sorgenNeu)
